@@ -41,7 +41,7 @@ Gedächtnisstütze:
 | Werbung, Analyse, Tracking | nicht vorhanden |
 | Datenweitergabe zu Werbezwecken | keine |
 | Verschlüsselung bei der Übertragung | ja (TLS) |
-| Löschung | per E-Mail an support@ai-files.eu (Abschnitt 12) |
+| Löschung | per E-Mail an stefanwerning542@gmail.com (Abschnitt 12) |
 
 Firebase Cloud Messaging ist ein Auftragsverarbeiter für den Versand der
 Push-Nachrichten, kein Werbedienst.
