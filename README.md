@@ -7,6 +7,12 @@ Datenschutz-URL eingetragen.
 - Deutsch: <https://stefan-werning.github.io/turn-two-privacy/>
 - English: <https://stefan-werning.github.io/turn-two-privacy/privacy-en.html>
 
+Für die Play Console:
+
+- Datenschutz-URL: <https://stefan-werning.github.io/turn-two-privacy/>
+- URL für Löschanfragen: <https://stefan-werning.github.io/turn-two-privacy/#konto-loeschen>
+  (Abschnitt „Konto und Daten löschen")
+
 ## Veröffentlichen
 
 1. Repository `turn-two-privacy` auf GitHub anlegen (öffentlich, ohne README).
