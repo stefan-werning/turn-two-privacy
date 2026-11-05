@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Turn Two</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #8ab4f8; }
+    hr { border-color: #333; }
+    .note { background: #1c2333; border-color: #2c3a55; }
+  }
+  a { color: #2b4c8c; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+  .lang-switch { margin-bottom: 1.5rem; font-size: 0.95rem; }
+  .lang-switch a { margin-right: 0.75rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  address { font-style: normal; }
+  .note {
+    background: #f2f5fb;
+    border: 1px solid #dfe6f5;
+    border-radius: 12px;
+    padding: 1rem 1.15rem;
+    margin: 1.5rem 0;
+  }
+  .note p { margin: 0; }
+  hr { margin: 2.5rem 0 1.5rem; border: none; border-top: 1px solid #ddd; }
+  footer { font-size: 0.85rem; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="index.html">🇩🇪 Deutsche Version</a> | 🇬🇧 English</div>
+
+<h1>Privacy Policy – Turn Two</h1>
+<p class="meta">Effective date: November 5, 2026 · App package: <code>eu.aifiles.turntwo</code></p>
+
+<h2>1. Controller</h2>
+<p>The party responsible for data processing in connection with the "Turn Two" app is:</p>
+<address>
+Stefan Werning<br>
+Ernst-Velten-Str. 6<br>
+47809 Krefeld<br>
+Germany<br>
+Email: <a href="mailto:support@ai-files.eu">support@ai-files.eu</a>
+</address>
+
+<h2>2. What this policy covers</h2>
+<p>Turn Two is a two-player online game. Unlike a purely offline app, Turn Two needs a server so that two devices can play against each other. This means some data is processed that you enter yourself (for example your player name) or that is created while playing (for example moves and chat messages).</p>
+<p>This policy applies to the Android app Turn Two and to the associated game server at <code>werning.ipv64.de</code>.</p>
+
+<div class="note">
+  <p><strong>In short:</strong> We only store what is needed for your account, friends, matches, chat and push notifications. There is no advertising, no tracking, no analytics SDKs and no selling of data. The app does not require an email address or password; you only choose a player name.</p>
+</div>
+
+<h2>3. What data is processed?</h2>
+
+<h3>3.1 Account and profile</h3>
+<ul>
+  <li><strong>Player name</strong> (freely chosen by you, 2–20 characters)</li>
+  <li><strong>Avatar</strong> (optional emoji selected by you)</li>
+  <li><strong>Player ID</strong> (randomly generated on the device, not linked to your name, email or phone number)</li>
+  <li><strong>Friend code</strong> (random code others can use to add you)</li>
+  <li><strong>Recovery code</strong> (randomly generated so you can restore your account after reinstalling the app)</li>
+  <li><strong>Technical secrets</strong> (device secret and session tokens, stored on the server only as hashes)</li>
+</ul>
+
+<h3>3.2 Game data</h3>
+<ul>
+  <li>Sessions and matches you take part in (game type, turn order, game state, result, timestamps)</li>
+  <li>Match history of finished games (results and participants)</li>
+  <li>Friends, friend requests, invitations and rematch requests</li>
+  <li>Chat messages with your opponents (the last 50 messages per chat are stored)</li>
+  <li>Online status ("online"/"offline"), which is shared with your opponents</li>
+</ul>
+
+<h3>3.3 Push notifications (optional)</h3>
+<p>If you enable notifications in the settings, we store a <strong>Firebase Installation ID (FID)</strong> for your device, the platform (Android) and the activation status. We use this ID to send notifications about invitations, turns, chat messages and rematch requests. The FID is not an advertising ID and is not used for advertising.</p>
+
+<h3>3.4 Locally on your device</h3>
+<p>The app stores your login token, player ID, settings (e.g. push on/off) and the last known game state on your device. This data stays local until you uninstall the app or clear its data.</p>
+
+<h3>3.5 Technical server logs</h3>
+<p>When the server is accessed, technical access data is generated: IP address, time, requested resource, amount of data transferred and error codes. These logs are used solely for secure operation and troubleshooting and are deleted after a few days.</p>
+
+<h2>4. Purposes and legal bases</h2>
+<ul>
+  <li><strong>Providing the game, account, friends, chat:</strong> Art. 6(1)(b) GDPR (performance of the user contract)</li>
+  <li><strong>Push notifications:</strong> Art. 6(1)(a) GDPR (consent, which you can withdraw at any time in the app settings)</li>
+  <li><strong>Security, abuse prevention, troubleshooting:</strong> Art. 6(1)(f) GDPR (legitimate interest in secure operation)</li>
+</ul>
+
+<h2>5. Recipients and third parties</h2>
+<p>We do not sell data and do not share it for advertising purposes. Data only reaches the following parties:</p>
+<ul>
+  <li><strong>Other players:</strong> Your player name, avatar, moves, chat messages and online status are visible to the people you play with or are friends with.</li>
+  <li><strong>1&amp;1 IONOS SE:</strong> The game server, database and MQTT broker run on a rented server (VPS) from this hosting provider, located in Germany. The provider processes the data as a processor.</li>
+  <li><strong>Google Firebase Cloud Messaging:</strong> If you enable push notifications, the FID and the notification content (e.g. "Message from …" including the message text) are transmitted to Google Ireland Limited or Google LLC so that the notification can be delivered. This may involve a connection to Google servers outside the EU; the transfer is based on the Standard Contractual Clauses or the EU-US Data Privacy Framework where applicable.</li>
+  <li><strong>Google Play:</strong> If you install the app via Google Play and when the app checks for updates, Google's own privacy policies also apply.</li>
+</ul>
+
+<h2>6. Retention period</h2>
+<ul>
+  <li><strong>Active matches:</strong> ended and removed after 2 hours of inactivity; sessions that never started (drafts) after 24 hours.</li>
+  <li><strong>Finished matches:</strong> results remain in the match history until you request deletion of your account.</li>
+  <li><strong>Chat:</strong> the last 50 messages per chat are stored; older messages are discarded automatically.</li>
+  <li><strong>Friends, requests, invitations:</strong> until removed or until account deletion.</li>
+  <li><strong>Push FID:</strong> until you disable notifications, uninstall the app or request account deletion.</li>
+  <li><strong>Server logs:</strong> a few days.</li>
+</ul>
+
+<h2>7. App permissions</h2>
+<ul>
+  <li><strong>Internet:</strong> required for gameplay, chat and push.</li>
+  <li><strong>Camera:</strong> optional, used only to scan QR codes (invitations/joining a match). No photos or videos are stored or transmitted.</li>
+  <li><strong>Notifications:</strong> only with your explicit consent and can be turned off at any time in Android settings.</li>
+</ul>
+<p>The app does not request location, contacts, microphone or photo library permissions and does not use an advertising ID.</p>
+
+<h2>8. Data security</h2>
+<p>The connection to the game server and the real-time broker is encrypted with TLS. Access tokens are stored on the server only as hashes; each device receives its own credentials with access limited to that player's real-time topics.</p>
+
+<h2>9. No advertising, tracking or analytics</h2>
+<p>Turn Two contains no advertising networks, no analytics or tracking services (no Google Analytics, no Firebase Analytics, no Crashlytics), no in-app purchases and no profiling. No usage profiles are created and no data is shared with data brokers.</p>
+
+<h2>10. Children</h2>
+<p>Turn Two is not directed at children under 13. We do not knowingly collect data from children under 13. If you are a parent or guardian and discover that a child has created an account, please contact us at <a href="mailto:support@ai-files.eu">support@ai-files.eu</a> and we will delete the account.</p>
+
+<h2>11. Your rights</h2>
+<p>Under the GDPR you have the right to access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection to processing (Art. 21). You may withdraw any consent to push notifications at any time with effect for the future.</p>
+<p>For any request, simply email <a href="mailto:support@ai-files.eu">support@ai-files.eu</a>.</p>
+
+<h2>12. Deleting your account and data</h2>
+<p>You can have your account deleted at any time. Send an email to <a href="mailto:support@ai-files.eu">support@ai-files.eu</a>. We will then delete your profile, friendships, chat messages, match history and push registration, unless statutory retention obligations apply. Deletion is carried out promptly and no later than one month. You can also delete all locally stored data at any time by clearing the app storage in Android settings or by uninstalling the app.</p>
+
+<h2>13. Right to lodge a complaint</h2>
+<p>You have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data violates applicable data protection law. In North Rhine-Westphalia, the competent authority is the State Commissioner for Data Protection and Freedom of Information (LDI NRW).</p>
+
+<h2>14. Changes to this privacy policy</h2>
+<p>This privacy policy may be updated as needed, for example if the app's functionality changes. The current version is always available at this URL.</p>
+
+<h2>15. Contact</h2>
+<p>If you have questions about this privacy policy, please contact us at <a href="mailto:support@ai-files.eu">support@ai-files.eu</a>.</p>
+
+<hr>
+<footer>Turn Two · Privacy Policy</footer>
+
+</body>
+</html>
