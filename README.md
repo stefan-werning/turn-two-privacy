@@ -11,12 +11,14 @@ Datenschutz-URL eingetragen.
 
 1. Repository `turn-two-privacy` auf GitHub anlegen (öffentlich, ohne README).
 2. `git push -u origin main`.
-3. Unter *Settings → Pages* als Source „Deploy from a branch", Branch `main`,
-   Ordner `/ (root)` wählen.
+3. Unter *Settings → Pages* als Source **„GitHub Actions"** wählen.
+   Der Workflow `.github/workflows/pages.yml` veröffentlicht danach jeden Push
+   auf `main` automatisch; ein Push lässt sich auch manuell unter *Actions*
+   neu starten.
 4. Nach ein bis zwei Minuten sind beide URLs erreichbar.
 
 Änderungen an der Erklärung: die betroffene HTML-Datei bearbeiten, committen und
-pushen. Die Seite hat keine Build-Abhängigkeiten.
+pushen. GitHub Pages baut die Seite automatisch neu.
 
 ## Hinweise für „Datensicherheit" in der Play Console
 
