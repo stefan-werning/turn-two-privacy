@@ -17,3 +17,23 @@ Datenschutz-URL eingetragen.
 
 Änderungen an der Erklärung: die betroffene HTML-Datei bearbeiten, committen und
 pushen. Die Seite hat keine Build-Abhängigkeiten.
+
+## Hinweise für „Datensicherheit" in der Play Console
+
+Die Angaben müssen zur tatsächlichen App passen; diese Übersicht ist nur eine
+Gedächtnisstütze:
+
+| Bereich | In Turn Two |
+|---|---|
+| Personenbezogene Daten | Name (Spielername), optional Avatar-Emoji |
+| Nachrichten | Chat-Nachrichten zwischen Mitspielern |
+| App-Aktivität | Partien, Züge, Ergebnisse, Freundesliste |
+| Geräte- oder andere IDs | Firebase Installation ID (nur bei aktivem Push) |
+| Standort, Kontakte, Fotos, Gesundheit, Zahlungen | nicht erhoben |
+| Werbung, Analyse, Tracking | nicht vorhanden |
+| Datenweitergabe zu Werbezwecken | keine |
+| Verschlüsselung bei der Übertragung | ja (TLS) |
+| Löschung | per E-Mail an support@ai-files.eu (Abschnitt 12) |
+
+Firebase Cloud Messaging ist ein Auftragsverarbeiter für den Versand der
+Push-Nachrichten, kein Werbedienst.
